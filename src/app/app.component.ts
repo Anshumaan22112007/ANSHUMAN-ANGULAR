@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'anshuman-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ANSHUMAN-HAM';
+  user='ANSHUMAN'
+  title = 'ANSHUMAN';
 }
